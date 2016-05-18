@@ -41,6 +41,7 @@ public class FilmAction implements ModelDriven<FileBean>,SessionAware{
 	
 	public void add(){
 		LogManager.getLogger().debug("条件"+fileBean);
+		System.out.println("fsdfsfsdafsdafsdafsdafsad");
 		System.out.println("heihie"+fileBean);
 		filmService.insertFilm(fileBean);
 	}
