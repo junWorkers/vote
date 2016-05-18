@@ -50,6 +50,7 @@ public class TypeAction {
 	//不进行页面条跳转，使用struts的插件包struts2-json-plugin来处理
 	public String getTypes(){
 		fileTypes=typeService.findAllType();
+		System.out.println(fileTypes);
 		return "success";
 	}
 }

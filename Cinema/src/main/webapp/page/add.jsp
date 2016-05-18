@@ -19,7 +19,7 @@
 			$('fnmessage').innerHTML = "<font color='red'>电影名称不能为空</font>";
 			return false;
 		}
-		else
+
 		{
 			$('fnmessage').style.display = "none";
 		}

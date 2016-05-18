@@ -48,4 +48,5 @@
 	<insert id="addFilm" parameterType="FileBean">
 		insert into filminfo values(seq_filmInfo.nextval,#{filmname},#{typeid},#{actor},#{director},#{ticketprice})
 	</insert>
+
 </mapper>
